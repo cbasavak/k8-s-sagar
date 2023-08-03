@@ -9,6 +9,9 @@ Create Worker nodes
 Deploying demo application
 aws sts get-caller-identity
 aws iam list-users
+cat ~/.kube/config
+cat ~/.aws/credentials
+kubectl get all --all-namespaces
 ```
 
 ### Note: Do all the kubectl operations from ec2 instance (that should be launched in same VPC of EKS cluster)
