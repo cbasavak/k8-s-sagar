@@ -6,7 +6,9 @@ Create EKS cluster
 Install and setup IAM authenticator and kubectl utility
 Create IAM role for EKS Worker Nodes
 Create Worker nodes
-Deploying demo application 
+Deploying demo application
+aws sts get-caller-identity
+aws iam list-users
 ```
 
 ### Note: Do all the kubectl operations from ec2 instance (that should be launched in same VPC of EKS cluster)
