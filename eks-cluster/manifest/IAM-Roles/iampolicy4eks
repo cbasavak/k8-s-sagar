@@ -32,12 +32,12 @@
                 "iam:ListPolicyVersions"
             ],
             "Resource": [
-                "arn:aws:iam::583863161223:instance-profile/eksctl-*",
-                "arn:aws:iam::583863161223:role/eksctl-*",
-                "arn:aws:iam::583863161223:policy/eksctl-*",
-                "arn:aws:iam::583863161223:oidc-provider/*",
-                "arn:aws:iam::583863161223:role/aws-service-role/eks-nodegroup.amazonaws.com/AWSServiceRoleForAmazonEKSNodegroup",
-                "arn:aws:iam::583863161223:role/eksctl-managed-*"
+                "arn:aws:iam::262219675226:instance-profile/eksctl-*",
+                "arn:aws:iam::262219675226:role/eksctl-*",
+                "arn:aws:iam::262219675226:policy/eksctl-*",
+                "arn:aws:iam::262219675226:oidc-provider/*",
+                "arn:aws:iam::262219675226:role/aws-service-role/eks-nodegroup.amazonaws.com/AWSServiceRoleForAmazonEKSNodegroup",
+                "arn:aws:iam::262219675226:role/eksctl-managed-*"
             ]
         },
         {
@@ -46,7 +46,7 @@
                 "iam:GetRole"
             ],
             "Resource": [
-                "arn:aws:iam::583863161223:role/*"
+                "arn:aws:iam::262219675226:role/*"
             ]
         },
         {
@@ -67,34 +67,34 @@
                 "eks:DeleteNodegroup"
             ],
             "Resource": [
-                "arn:aws:eks:us-east-1:583863161223:cluster/eks-cluster-02",
-                "arn:aws:eks:us-east-1:583863161223:nodegroup/eks-cluster-02/*"
+                "arn:aws:eks:us-east-1:262219675226:cluster/eks-cluster-02",
+                "arn:aws:eks:us-east-1:262219675226:nodegroup/eks-cluster-02/*"
             ]
         },
         {
             "Effect": "Allow",
             "Action": "eks:TagResource",
-            "Resource": "arn:aws:eks:us-east-1:583863161223:cluster/eks-cluster-02"
+            "Resource": "arn:aws:eks:us-east-1:262219675226:cluster/eks-cluster-02"
         },
         {
             "Effect": "Allow",
             "Action": "eks:CreateNodegroup",
-            "Resource": "arn:aws:eks:us-east-1:583863161223:cluster/eks-cluster-02"
+            "Resource": "arn:aws:eks:us-east-1:262219675226:cluster/eks-cluster-02"
         },
         {
             "Effect": "Allow",
             "Action": "eks:*",
-            "Resource": "arn:aws:eks:us-east-1:583863161223:cluster/eks-cluster-02"
+            "Resource": "arn:aws:eks:us-east-1:262219675226:cluster/eks-cluster-02"
         },
         {
             "Effect": "Allow",
             "Action": "eks:DescribeUpdate",
-            "Resource": "arn:aws:eks:us-east-1:583863161223:cluster/eks-cluster-02"
+            "Resource": "arn:aws:eks:us-east-1:262219675226:cluster/eks-cluster-02"
         },
         {
             "Effect": "Allow",
             "Action": "eks:ListUpdates",
-            "Resource": "arn:aws:eks:us-east-1:583863161223:cluster/eks-cluster-02"
+            "Resource": "arn:aws:eks:us-east-1:262219675226:cluster/eks-cluster-02"
         },
         {
             "Effect": "Allow",
